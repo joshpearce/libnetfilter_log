@@ -2,6 +2,8 @@ include ${top_srcdir}/Make_global.am
 
 check_PROGRAMS = nfulnl_test nf-log
 
+sbin_PROGRAMS = nfulnl_test
+
 nfulnl_test_SOURCES = nfulnl_test.c
 nfulnl_test_LDADD = ../src/libnetfilter_log.la
 
